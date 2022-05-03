@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  count-java:
+    image: niels58/graalvm-ce-count-native:v1
+    build: .
+    entrypoint: "tail -f /dev/null"
